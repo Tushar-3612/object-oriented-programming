@@ -1,0 +1,32 @@
+
+#include <iostream>
+
+int main() {
+    int arr[100] ;
+    int  key, size, i, flag = 0;
+
+    std::cout << "ENTER THE ARRAY SIZE YOU WANT TO INSERT : ";
+    std::cin >> size;
+
+    std::cout << "ENTER THE ARRAY ELEMENT : ";
+    for (i = 0; i < size; i++) {
+        std::cin >> arr[i];
+    }
+
+    std::cout << "ENTER A NUMBER YOU WANT TO SEARCH : ";
+    std::cin >> key;
+
+    for (i = 0; i < size; i++) {
+        if (arr[i] == key) {
+            flag = 1;
+            std::cout << "\n" << key << " IS AVAILABLE LOCATION AT " << i;
+            break;
+        }
+    }
+
+    if (flag == 0) {
+        std::cout << key << " SORRY TO SAY BUT DATA HAS NOT FOUND :";
+    }
+
+return 0;
+}
