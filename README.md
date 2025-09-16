@@ -16,7 +16,7 @@
 
 - **Course Name**   : Object Oriented Programming
 - **Course Code**   : PCCO304
-- **Faculty**       : Prof. J.N.Kale 
+- **Faculty**       : Prof.B.B.Kotame 
 - **Credits**       : 2  
 - **Type**          : Laboratory  
 
