@@ -14,7 +14,7 @@
 
 ### 📚 Course Details:
 
-- **Course Name**   :Object 
+- **Course Name**   : Object Oriented Programming
 - **Course Code**   : PCCO304
 - **Faculty**       : Prof. J.N.Kale 
 - **Credits**       : 2  
